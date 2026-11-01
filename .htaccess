@@ -1,0 +1,7 @@
+Options -Indexes
+DirectoryIndex index.php
+
+# Block dotfiles and dumps/logs anywhere in the app
+<FilesMatch "^\.|\.(sql|bak|log|ini)$">
+    Require all denied
+</FilesMatch>

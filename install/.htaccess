@@ -1,0 +1,3 @@
+<FilesMatch "\.(sql|md)$|^(lib|Seeder|cli)\.php$">
+    Require all denied
+</FilesMatch>

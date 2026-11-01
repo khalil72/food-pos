@@ -1,0 +1,4 @@
+config/config.php
+backups/*.sql
+uploads/logo/*
+!uploads/logo/.gitkeep

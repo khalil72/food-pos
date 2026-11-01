@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="20%" r="90%"><stop offset="0" stop-color="#95C5A7"/><stop offset="1" stop-color="#15803D"/></radialGradient>
+    <radialGradient id="plate" cx="50%" cy="45%" r="55%"><stop offset="0" stop-color="#ffffff" stop-opacity=".55"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000" flood-opacity=".28"/></filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <circle cx="340" cy="40" r="70" fill="#fff" opacity=".08"/><circle cx="40" cy="270" r="90" fill="#fff" opacity=".07"/>
+  <ellipse cx="200" cy="162" rx="128" ry="118" fill="url(#plate)"/>
+  <text x="200" y="160" font-size="140" text-anchor="middle" dominant-baseline="central" filter="url(#sh)" font-family="Segoe UI Emoji, Apple Color Emoji, Noto Color Emoji, sans-serif">🌯</text>
+</svg>
